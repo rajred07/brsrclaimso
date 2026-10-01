@@ -1,0 +1,47 @@
+[
+  {
+    "metric": "water holding capacity of Bengaluru lakes",
+    "operation": "absolute_change",
+    "stated_result": "5 billion",
+    "unit": "liters",
+    "period_current": "fiscal 2024",
+    "period_compare": "baseline before rejuvenation",
+    "original_quote": "We rejuvenated five lakes in Bengaluru, enhancing the water holding capacity by about 5 billion liters compared to the baseline before rejuvenation."
+  },
+  {
+    "metric": "scope 1 and 2 emissions",
+    "operation": "percentage_change",
+    "stated_result": 60.07,
+    "unit": "%",
+    "period_current": "fiscal 2024",
+    "period_compare": "BAU scenario",
+    "original_quote": "Furthermore, we successfully reduced our scope 1 and 2 emissions by 60.07% over the BAU scenario."
+  },
+  {
+    "metric": "electricity savings",
+    "operation": "absolute_change",
+    "stated_result": "1.1 lakh",
+    "unit": "kWh",
+    "period_current": "fiscal 2024",
+    "period_compare": "before the retrofit",
+    "original_quote": "Through aggressive retrofitting, we replaced direct FCU units with chilled water units of air conditioning, which saved 1.1 lakh kWh of electricity and reduced our absolute emissions by 80.84 tCO2e compared to before the retrofit."
+  },
+  {
+    "metric": "absolute emissions",
+    "operation": "absolute_change",
+    "stated_result": 80.84,
+    "unit": "tCO2e",
+    "period_current": "fiscal 2024",
+    "period_compare": "before the retrofit",
+    "original_quote": "Through aggressive retrofitting, we replaced direct FCU units with chilled water units of air conditioning, which saved 1.1 lakh kWh of electricity and reduced our absolute emissions by 80.84 tCO2e compared to before the retrofit."
+  },
+  {
+    "metric": "carbon neutrality",
+    "operation": "value_equality",
+    "stated_result": "completely carbon neutral",
+    "unit": "years",
+    "period_current": "Fiscal 2024",
+    "period_compare": "Fiscal 2020 through Fiscal 2024",
+    "original_quote": "Finally, we have remained completely carbon neutral for 5 years in a row, from Fiscal 2020 through Fiscal 2024."
+  }
+]

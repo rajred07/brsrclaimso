@@ -1,0 +1,385 @@
+{
+  "split": "test",
+  "complete_four_system_evaluation": true,
+  "dataset_sha256": "26972b4ab5fcc6321a88c2171f9f6abd38d341f9a60bab21e9166bd23d392396",
+  "implementation_sha256": "ce4ea2c91a269a70d318850e0ac4835a528263f90c4bcdd56effa50c6b72d62e",
+  "predictions_sha256": "5723f6451ee2ad442d8efc7afc448a7b2efadb0fd177905ecaf380fca2562f9f",
+  "annotation_mode": "automated_source_reference",
+  "reference_label_status": "Agreement with automatic XBRL references; not independent ground-truth accuracy",
+  "definitions": {
+    "false_positive_rate": "gold != INCONSISTENT predicted INCONSISTENT / all gold != INCONSISTENT",
+    "coverage": "non-abstained predictions / all examples",
+    "grounding_accuracy": "exact set equality of predicted/gold fact IDs over examples with gold IDs",
+    "macro_f1": "mean F1 over the three fixed verdict classes"
+  },
+  "results": {
+    "keyword_calculator": {
+      "natural": {
+        "n": 16,
+        "precision_inconsistent": 0.0,
+        "recall_inconsistent": 0.0,
+        "f1_inconsistent": 0.0,
+        "macro_f1": 0.1818181818181818,
+        "false_positive_rate": 0.0,
+        "false_positive_rate_supported": 0.0,
+        "coverage": 0.0,
+        "grounding_accuracy": 0.0,
+        "grounding_n": 10,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 10
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 6
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "modified": {
+        "n": 12,
+        "precision_inconsistent": 0.0,
+        "recall_inconsistent": 0.0,
+        "f1_inconsistent": 0.0,
+        "macro_f1": 0.0,
+        "false_positive_rate": null,
+        "false_positive_rate_supported": null,
+        "coverage": 0.0,
+        "grounding_accuracy": 0.0,
+        "grounding_n": 12,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 12
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "combined": {
+        "n": 28,
+        "precision_inconsistent": 0.0,
+        "recall_inconsistent": 0.0,
+        "f1_inconsistent": 0.0,
+        "macro_f1": 0.11764705882352942,
+        "false_positive_rate": 0.0,
+        "false_positive_rate_supported": 0.0,
+        "coverage": 0.0,
+        "grounding_accuracy": 0.0,
+        "grounding_n": 22,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 10
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 12
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 6
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      }
+    },
+    "llm_only": {
+      "natural": {
+        "n": 16,
+        "precision_inconsistent": 0.0,
+        "recall_inconsistent": 0.0,
+        "f1_inconsistent": 0.0,
+        "macro_f1": 0.3452380952380952,
+        "false_positive_rate": 0.0625,
+        "false_positive_rate_supported": 0.1,
+        "coverage": 0.9375,
+        "grounding_accuracy": 1.0,
+        "grounding_n": 10,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 9,
+            "INCONSISTENT": 1,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 5,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 1
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "modified": {
+        "n": 12,
+        "precision_inconsistent": 1.0,
+        "recall_inconsistent": 1.0,
+        "f1_inconsistent": 1.0,
+        "macro_f1": 0.3333333333333333,
+        "false_positive_rate": null,
+        "false_positive_rate_supported": null,
+        "coverage": 1.0,
+        "grounding_accuracy": 1.0,
+        "grounding_n": 12,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 12,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "combined": {
+        "n": 28,
+        "precision_inconsistent": 0.9230769230769231,
+        "recall_inconsistent": 1.0,
+        "f1_inconsistent": 0.9600000000000001,
+        "macro_f1": 0.6652380952380953,
+        "false_positive_rate": 0.0625,
+        "false_positive_rate_supported": 0.1,
+        "coverage": 0.9642857142857143,
+        "grounding_accuracy": 1.0,
+        "grounding_n": 22,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 9,
+            "INCONSISTENT": 1,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 12,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 5,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 1
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      }
+    },
+    "retrieval_llm": {
+      "natural": {
+        "n": 16,
+        "precision_inconsistent": 0.0,
+        "recall_inconsistent": 0.0,
+        "f1_inconsistent": 0.0,
+        "macro_f1": 0.3271221532091097,
+        "false_positive_rate": 0.125,
+        "false_positive_rate_supported": 0.2,
+        "coverage": 0.9375,
+        "grounding_accuracy": 1.0,
+        "grounding_n": 10,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 8,
+            "INCONSISTENT": 2,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 5,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 1
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "modified": {
+        "n": 12,
+        "precision_inconsistent": 1.0,
+        "recall_inconsistent": 0.75,
+        "f1_inconsistent": 0.8571428571428571,
+        "macro_f1": 0.2857142857142857,
+        "false_positive_rate": null,
+        "false_positive_rate_supported": null,
+        "coverage": 0.75,
+        "grounding_accuracy": 0.8333333333333334,
+        "grounding_n": 12,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 9,
+            "INSUFFICIENT_EVIDENCE": 3
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "combined": {
+        "n": 28,
+        "precision_inconsistent": 0.8181818181818182,
+        "recall_inconsistent": 0.75,
+        "f1_inconsistent": 0.7826086956521738,
+        "macro_f1": 0.5594202898550724,
+        "false_positive_rate": 0.125,
+        "false_positive_rate_supported": 0.2,
+        "coverage": 0.8571428571428571,
+        "grounding_accuracy": 0.9090909090909091,
+        "grounding_n": 22,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 8,
+            "INCONSISTENT": 2,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 9,
+            "INSUFFICIENT_EVIDENCE": 3
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 5,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 1
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      }
+    },
+    "veribrsr": {
+      "natural": {
+        "n": 16,
+        "precision_inconsistent": 0.0,
+        "recall_inconsistent": 0.0,
+        "f1_inconsistent": 0.0,
+        "macro_f1": 0.6666666666666666,
+        "false_positive_rate": 0.0,
+        "false_positive_rate_supported": 0.0,
+        "coverage": 0.625,
+        "grounding_accuracy": 1.0,
+        "grounding_n": 10,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 10,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 6
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "modified": {
+        "n": 12,
+        "precision_inconsistent": 1.0,
+        "recall_inconsistent": 0.8333333333333334,
+        "f1_inconsistent": 0.9090909090909091,
+        "macro_f1": 0.30303030303030304,
+        "false_positive_rate": null,
+        "false_positive_rate_supported": null,
+        "coverage": 0.8333333333333334,
+        "grounding_accuracy": 0.8333333333333334,
+        "grounding_n": 12,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 10,
+            "INSUFFICIENT_EVIDENCE": 2
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      },
+      "combined": {
+        "n": 28,
+        "precision_inconsistent": 1.0,
+        "recall_inconsistent": 0.8333333333333334,
+        "f1_inconsistent": 0.9090909090909091,
+        "macro_f1": 0.9220779220779219,
+        "false_positive_rate": 0.0,
+        "false_positive_rate_supported": 0.0,
+        "coverage": 0.7142857142857143,
+        "grounding_accuracy": 0.9090909090909091,
+        "grounding_n": 22,
+        "confusion_matrix": {
+          "SUPPORTED": {
+            "SUPPORTED": 10,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 0
+          },
+          "INCONSISTENT": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 10,
+            "INSUFFICIENT_EVIDENCE": 2
+          },
+          "INSUFFICIENT_EVIDENCE": {
+            "SUPPORTED": 0,
+            "INCONSISTENT": 0,
+            "INSUFFICIENT_EVIDENCE": 6
+          }
+        },
+        "zero_division_policy": "Class precision/recall/F1 = 0 when undefined; FPR/grounding = null when no denominator"
+      }
+    }
+  }
+}

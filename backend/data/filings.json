@@ -1,0 +1,62 @@
+[
+  {
+    "id": "infosys-lts-202526-0434",
+    "company": "Infosys Ltd.",
+    "symbol": "INFY",
+    "fy": "2025-26",
+    "sector": "IT Services",
+    "pdf": true,
+    "xbrl": true,
+    "status": "PROCESSED",
+    "created_at": "2026-09-30 16:00:22",
+    "total_claims": 263,
+    "supported_count": 37,
+    "inconsistent_count": 15,
+    "abstain_count": 211
+  },
+  {
+    "id": "infosys-202324-2099",
+    "company": "infosys",
+    "symbol": "INFY",
+    "fy": "2023-24",
+    "sector": "IT Services",
+    "pdf": true,
+    "xbrl": true,
+    "status": "READY",
+    "created_at": "2026-09-30 09:20:52",
+    "total_claims": 0,
+    "supported_count": 0,
+    "inconsistent_count": 0,
+    "abstain_count": 0
+  },
+  {
+    "id": "infosys--202425-7178",
+    "company": "infosys ",
+    "symbol": "INFY",
+    "fy": "2024-25",
+    "sector": "IT Services",
+    "pdf": true,
+    "xbrl": true,
+    "status": "READY",
+    "created_at": "2026-09-30 08:38:07",
+    "total_claims": 0,
+    "supported_count": 0,
+    "inconsistent_count": 0,
+    "abstain_count": 0
+  },
+  {
+    "id": "infosys-2022",
+    "company": "Infosys Ltd.",
+    "symbol": "INFY",
+    "fy": "2021-22",
+    "sector": "IT Services",
+    "pdf": true,
+    "xbrl": true,
+    "status": "PROCESSED",
+    "created_at": "2026-09-30 08:25:11",
+    "total_claims": 7,
+    "supported_count": 6,
+    "inconsistent_count": 0,
+    "abstain_count": 1
+  }
+]

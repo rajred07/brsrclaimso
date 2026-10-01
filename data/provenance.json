@@ -1,0 +1,172 @@
+[
+  {
+    "filing_id": "infosys-2023-24",
+    "company": "Infosys Limited",
+    "reporting_year": "2023-24",
+    "source_kind": "existing user workspace documents",
+    "source_urls": {
+      "pdf": null,
+      "xbrl": null
+    },
+    "download_date": null,
+    "inspected_date": "2026-09-30",
+    "notes": "Original download URLs/dates were not supplied; no provenance has been invented.",
+    "sha256": {
+      "backend\\data\\filings\\infosys-202324-2099\\report_2infy202324.pdf": "b0a9bb9e802aff5f09733b8c78c88e9878732ac46e0fb29754c6da87ad47326a",
+      "backend\\data\\filings\\infosys-202324-2099\\brsr_BRSR_1154471_06062024072107_WEB__1_.xml": "18d239176c2ce81be5649ab03e5f5e40ac0f1a0cf43e1f265991a72083651d5c"
+    }
+  },
+  {
+    "filing_id": "reliance-2023-24",
+    "company": "Reliance Industries Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/kavinavora_07082024144352_SE_BRSR.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1215148_07082024024443_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=RELIANCE&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:32:47.679865+00:00",
+    "sha256": {
+      "pdf": "a9433fe7cc645fca680a511dd4fd9dd9b92cfea08db668268c99e51e73fc434b",
+      "xbrl": "e98f7fd4e2abd45f0c5be03331a8905262ee59c51fb065c829247c1989a703a5"
+    },
+    "pdf_pages": 55,
+    "numeric_facts": 1550
+  },
+  {
+    "filing_id": "tata-steel-2023-24",
+    "company": "Tata Steel Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/SAKSHIKAPUR_24062024111447_BRSRNSEBSE.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1161775_24062024111522_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=TATASTEEL&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:32:48.316984+00:00",
+    "sha256": {
+      "pdf": "ba3d5c666e1b25ce4343297e579fde2086eea55148241f1b1471aa396523ca69",
+      "xbrl": "552f8cea796abc42281ebc7bae4568f8f434bdf26e3aa944bf4ec6ce0c26d3ec"
+    },
+    "pdf_pages": 81,
+    "numeric_facts": 1423
+  },
+  {
+    "filing_id": "larsen-toubro-2023-24",
+    "company": "Larsen & Toubro Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/PAM_11062024181407_BRSRAGM2024.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1156224_11062024061436_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=LT&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:40:30.312378+00:00",
+    "sha256": {
+      "pdf": "073ea895f34c1ad0a0f43817d74bd7481b98f44eaafb690b97b413c0fdf6a869",
+      "xbrl": "df33fa0dbd6c595e98ed927e124f53c994e6944bf9a75aa133c04b0b399171ed"
+    },
+    "pdf_pages": 54,
+    "numeric_facts": 1328
+  },
+  {
+    "filing_id": "hul-2023-24",
+    "company": "Hindustan Unilever Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_27062024112811_HULBRSR202324Signed.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1164290_27062024112902_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=HINDUNILVR&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:40:45.342086+00:00",
+    "sha256": {
+      "pdf": "1194752c351cb7d4555b82b81734adf6a49370792b5b6dab5f6286c3814bdbc1",
+      "xbrl": "6d0295935017a8b516827faa3a52d56973d8f884bc4f79af1be282aaebaffc8a"
+    },
+    "pdf_pages": 75,
+    "numeric_facts": 1223
+  },
+  {
+    "filing_id": "jsw-steel-2023-24",
+    "company": "JSW Steel Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/Supriya_04072024205538_BRSRREPORT.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1170474_04072024085617_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=JSWSTEEL&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:40:46.222957+00:00",
+    "sha256": {
+      "pdf": "c72e35c2f2395533f9b9610a7513d77429170319dcfe80cc999fe0f93adeb680",
+      "xbrl": "89f40d5474569bed80bfe17501e96037e27c8475f838d7b5d658b4bda2833406"
+    },
+    "pdf_pages": 44,
+    "numeric_facts": 1286
+  },
+  {
+    "filing_id": "tcs-2023-24",
+    "company": "Tata Consultancy Services Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_12062024193403_SEIntBRSRsigned.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1156898_12062024073629_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=TCS&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:40:47.119244+00:00",
+    "sha256": {
+      "pdf": "a76dddc8d582f4a0b6d36c87e0e3ded356f2a52f16fcc62b015798322298c43e",
+      "xbrl": "2d0cb0de4be58363240d339ff06fe63cb6e30b858455c4e78dc7a3105fd07823"
+    },
+    "pdf_pages": 47,
+    "numeric_facts": 1252
+  },
+  {
+    "filing_id": "wipro-2023-24",
+    "company": "Wipro Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_24062024203244_SEIntimationBRSR.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1162319_24062024083340_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=WIPRO&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:40:47.898921+00:00",
+    "sha256": {
+      "pdf": "be38f48c0ab722fa86da493da0cef197c5f37379f751e595729bbd0171eb54c1",
+      "xbrl": "187efa6ba86f2c96857e1f1376120e81640b956ec4329557daa5f5782afe4a7d"
+    },
+    "pdf_pages": 47,
+    "numeric_facts": 1373
+  },
+  {
+    "filing_id": "itc-2023-24",
+    "company": "ITC Limited",
+    "reporting_year": "2023-24",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/ITC_28062024115927_SE_BRSR_.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1165484_28062024115938_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=ITC&from_date=01-04-2024&to_date=31-03-2025",
+    "download_date": "2026-09-30T17:40:48.832087+00:00",
+    "sha256": {
+      "pdf": "40cc585769aace7b6507c5b3e00056009608564f76c7f5342181812598e82713",
+      "xbrl": "693ccd06145d2efe019db0242d1ede824d0981e4a56e1a7cdfc46be4469d353c"
+    },
+    "pdf_pages": 58,
+    "numeric_facts": 1248
+  },
+  {
+    "filing_id": "mahindra-2024-25",
+    "company": "Mahindra & Mahindra Limited",
+    "reporting_year": "2024-25",
+    "source_urls": {
+      "pdf": "https://nsearchives.nseindia.com/corporate/Shree_28062025234543_MMAnnual_ReportFY2025_1.pdf",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/BRSR_1474151_28062025114611_WEB.xml"
+    },
+    "listing_url": "https://www.nseindia.com/api/corporate-bussiness-sustainabilitiy?symbol=M%26M&from_date=01-04-2025&to_date=31-03-2026",
+    "download_date": "2026-09-30T17:49:54.537428+00:00",
+    "sha256": {
+      "pdf": "467c23a8367ce8c6e259adebf96e24b98beeb976eba4b5d0fe806c08c32670a8",
+      "xbrl": "474c93f15c1d560032312f2fe90191e52f571dcb95f7d5c7a8807ecdcdfd40e8"
+    },
+    "pdf_pages": 249,
+    "numeric_facts": 1481
+  }
+]

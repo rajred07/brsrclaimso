@@ -1,0 +1,30 @@
+[
+  {
+    "page": 160,
+    "cache_hit": true,
+    "run_id": "6f97daef246d7004e464d2623204c1e34f25f3a4dd7c957cc78dddf64397f821",
+    "runtime_ms": 0,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "page": 161,
+    "cache_hit": true,
+    "run_id": "33e7aa3ecd01123c8d664cde14d91ce7209b96922fbefd53872f7ec15837c402",
+    "runtime_ms": 0,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "page": 162,
+    "cache_hit": true,
+    "run_id": "519a80ec5f763ce28bd9c126af7bbe883b3b3caba7e493c9804f8833507cc158",
+    "runtime_ms": 0,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "page": 163,
+    "cache_hit": false,
+    "run_id": "1d6f782c520ee260b4f0771560d5911f91ec087ad8b25b16b61455dd7b5db501",
+    "runtime_ms": 19440.381300635636,
+    "model": "gemini-3.5-flash"
+  }
+]

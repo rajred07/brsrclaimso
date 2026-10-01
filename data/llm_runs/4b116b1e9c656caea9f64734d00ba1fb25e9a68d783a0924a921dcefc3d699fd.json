@@ -1,0 +1,61 @@
+{
+  "prompt": "Return structured JSON only with a status field equal to ok.",
+  "purpose": "alternate_free_model_connectivity",
+  "settings": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "api_key_env": "GEMINI_API_KEY",
+    "env_file": "backend/.env",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta",
+    "temperature": 0,
+    "max_output_tokens": 8192,
+    "timeout_seconds": 60,
+    "requests_per_minute": 5,
+    "cache_directory": "data/llm_runs"
+  },
+  "prompt_version": "1.0",
+  "run_id": "4b116b1e9c656caea9f64734d00ba1fb25e9a68d783a0924a921dcefc3d699fd",
+  "run_date": "2026-09-30T15:43:50.620288+00:00",
+  "resolved_model": "gemini-3.5-flash-lite",
+  "runtime_ms": 4379.641599953175,
+  "environment": {
+    "python": "3.13.0",
+    "libraries": {
+      "PyMuPDF": "1.28.2",
+      "PyYAML": "6.0.2",
+      "requests": "2.32.3"
+    }
+  },
+  "text": "{\n  \"status\": \"ok\"\n}",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"status\": \"ok\"\n}",
+              "thoughtSignature": "EmAKXgFpFH0T66+/n0Peyr+uIAN/JnoQ7yMpmtxYgxt9CeJPRWJ7iX/FvYZJf6tIbClCbhx9TYGoqsi0KWCtjksCj8wec35xC2gkDkk7QiraFo3YZYqrlSz7GnvA4Ew5ytE="
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 13,
+      "candidatesTokenCount": 11,
+      "totalTokenCount": 24,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 13
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-3.5-flash-lite",
+    "responseId": "Mi69apiGKtflg8UPrJG_0QM"
+  }
+}

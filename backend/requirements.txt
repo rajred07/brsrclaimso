@@ -1,0 +1,4 @@
+pymupdf
+spacy
+pydantic
+google-generativeai

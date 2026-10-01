@@ -1,0 +1,733 @@
+{
+  "Total Energy Consumed (Renewable + Non-Renewable)": [
+    {
+      "val": "850434",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "839448",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Energy Consumed from Renewable Sources": [
+    {
+      "val": "585702",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "485753",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Energy Consumed from Non-Renewable Sources": [
+    {
+      "val": "264732",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "353695",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Renewable Electricity Consumption": [
+    {
+      "val": "582411",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "485753",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Grid Electricity Consumption": [
+    {
+      "val": "210057",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "312952",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Renewable Fuel Consumption": [
+    {
+      "val": "3291",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "0",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Non-Renewable Fuel Consumption": [
+    {
+      "val": "54675",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "40743",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Energy Intensity per Rupee of Turnover": [
+    {
+      "val": "0.0000005218",
+      "unit": "Non-SI:GJ",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "0.0000005463",
+      "unit": "Non-SI:GJ",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Volume of Water Withdrawal": [
+    {
+      "val": "2085580",
+      "unit": "in-capmkt-types:kl",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "2317208",
+      "unit": "in-capmkt-types:kl",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Volume of Water Consumption": [
+    {
+      "val": "1955525",
+      "unit": "in-capmkt-types:kl",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "1995892",
+      "unit": "in-capmkt-types:kl",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Water Intensity per Rupee of Turnover": [
+    {
+      "val": "0.0000011998",
+      "unit": "in-capmkt-types:kl",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "0.0000012988",
+      "unit": "in-capmkt-types:kl",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Scope 1 GHG Emissions": [
+    {
+      "val": "8745",
+      "unit": "Non-SI:MtCO2e",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "7150",
+      "unit": "Non-SI:MtCO2e",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Scope 2 GHG Emissions": [
+    {
+      "val": "38586",
+      "unit": "Non-SI:MtCO2e",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "55881",
+      "unit": "Non-SI:MtCO2e",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Scope 3 GHG Emissions": [
+    {
+      "val": "179370",
+      "unit": "Non-SI:tCO2e",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "180737",
+      "unit": "Non-SI:tCO2e",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Scope 1+2 Emissions Intensity per Turnover": [
+    {
+      "val": "0.000000029",
+      "unit": "Non-SI:MtCO2e",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "0.000000041",
+      "unit": "Non-SI:MtCO2e",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Waste Generated": [
+    {
+      "val": "11689.77",
+      "unit": "Non-SI:t",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "49583.58",
+      "unit": "Non-SI:t",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Waste Recovered": [
+    {
+      "val": "11295.88",
+      "unit": "Non-SI:t",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "46918.51",
+      "unit": "Non-SI:t",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Waste Disposed": [
+    {
+      "val": "393.99",
+      "unit": "Non-SI:t",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "2665.07",
+      "unit": "Non-SI:t",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Plastic Waste": [
+    {
+      "val": "118.91",
+      "unit": "Non-SI:t",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "132.8",
+      "unit": "Non-SI:t",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "E-Waste": [
+    {
+      "val": "422.42",
+      "unit": "Non-SI:t",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "470.41",
+      "unit": "Non-SI:t",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Total Workforce / Employees & Workers": [
+    {
+      "val": "323578",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "197246",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "126332",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "25018",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "OtherThanPermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "19880",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "OtherThanPermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "5138",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "OtherThanPermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "OtherThanPermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "348596",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "EmployeesMember"
+      ]
+    },
+    {
+      "val": "217126",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "EmployeesMember"
+      ]
+    },
+    {
+      "val": "131470",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "EmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "EmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "OtherThanPermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "OtherThanPermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "OtherThanPermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "OtherThanPermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "WorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "WorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "WorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "WorkersMember"
+      ]
+    }
+  ],
+  "Voluntary Attrition / Turnover Rate": [
+    {
+      "val": "0.145",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.136",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.141",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.126",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.125",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.126",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.211",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.206",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0.209",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentEmployeesMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "MaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "FemaleMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "OtherGenderMember",
+        "PermanentWorkersMember"
+      ]
+    },
+    {
+      "val": "0",
+      "unit": "xbrli:pure",
+      "period": "2022-04-01 to 2023-03-31",
+      "dims": [
+        "GenderMember",
+        "PermanentWorkersMember"
+      ]
+    }
+  ],
+  "Revenue / Turnover": [
+    {
+      "val": "1629896491143.18",
+      "unit": "iso4217:INR",
+      "period": "2024-04-01 to 2025-03-31",
+      "dims": []
+    },
+    {
+      "val": "1536704905427.36",
+      "unit": "iso4217:INR",
+      "period": "2023-04-01 to 2024-03-31",
+      "dims": []
+    }
+  ],
+  "Amount Spent on CSR": []
+}

@@ -1,0 +1,48 @@
+project: VeriBRSR
+python_version: '3.13.0'
+dataset_version: '0.1-draft'
+annotation:
+  mode: automated_source_reference
+  description: 'Automatic exact-concept XBRL reference calculations. No manual or independent annotations; scores measure agreement with automatic references, not independently established accuracy.'
+experiment_date: null
+random_seed: 42
+scope:
+  filing_pairs: 10
+  natural_claims_target: 60
+  perturbations_target: 40
+llm:
+  provider: gemini
+  model: gemini-3.5-flash-lite
+  preferred_model: gemini-3.5-flash
+  model_choice_note: 'Preferred gemini-3.5-flash repeatedly returned HTTP 503 after bounded retries. The complete experiment explicitly uses the user-authorized free gemini-3.5-flash-lite, with no silent fallback.'
+  api_key_env: GEMINI_API_KEY
+  env_file: backend/.env
+  base_url: https://generativelanguage.googleapis.com/v1beta
+  temperature: 0
+  max_output_tokens: 8192
+  timeout_seconds: 60
+  requests_per_minute: 5
+  cache_directory: data/llm_runs
+  # Other providers may use provider: json_endpoint, with a server that accepts
+  # {model, prompt, temperature, max_output_tokens} and returns {text, model}.
+prompts:
+  extraction: prompts/extract_v1.txt
+  interpretation: prompts/interpret_v1.txt
+  baseline: prompts/baseline_v1.txt
+  version: '1.0'
+verification:
+  relative_tolerance: '0.01'
+  percentage_points_tolerance: '0.5'
+  epsilon: '1e-12'
+matching:
+  minimum_similarity: 0.82
+  ambiguity_margin: 0.04
+data:
+  filings: data/filings.csv
+  page_ranges: data/page_ranges.yaml
+  facts_db: data/xbrl_facts.sqlite
+  natural_claims: data/natural_claims.json
+  perturbations: data/perturbations.json
+  predictions: experiments/predictions.csv
+  traces: experiments/evidence_traces.jsonl
+  reference_reviews: data/reference_reviews.json

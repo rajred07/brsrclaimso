@@ -1,0 +1,73 @@
+{
+  "run_date": "2026-09-30T16:53:42.375481+00:00",
+  "config": {
+    "project": "VeriBRSR",
+    "python_version": "3.13.0",
+    "dataset_version": "0.1-draft",
+    "experiment_date": null,
+    "random_seed": 42,
+    "scope": {
+      "filing_pairs": 10,
+      "natural_claims_target": 60,
+      "perturbations_target": 40
+    },
+    "llm": {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "preferred_model": "gemini-3.5-flash",
+      "model_choice_note": "Updated local key passed the preferred-model live check. Earlier Flash-Lite development outputs are archived separately; no silent fallback.",
+      "api_key_env": "GEMINI_API_KEY",
+      "env_file": "backend/.env",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "temperature": 0,
+      "max_output_tokens": 8192,
+      "timeout_seconds": 60,
+      "requests_per_minute": 5,
+      "cache_directory": "data/llm_runs"
+    },
+    "prompts": {
+      "extraction": "prompts/extract_v1.txt",
+      "interpretation": "prompts/interpret_v1.txt",
+      "baseline": "prompts/baseline_v1.txt",
+      "version": "1.0"
+    },
+    "verification": {
+      "relative_tolerance": "0.01",
+      "percentage_points_tolerance": "0.5",
+      "epsilon": "1e-12"
+    },
+    "matching": {
+      "minimum_similarity": 0.82,
+      "ambiguity_margin": 0.04
+    },
+    "data": {
+      "filings": "data/filings.csv",
+      "page_ranges": "data/page_ranges.yaml",
+      "facts_db": "data/xbrl_facts.sqlite",
+      "natural_claims": "data/natural_claims.json",
+      "perturbations": "data/perturbations.json",
+      "predictions": "experiments/predictions.csv",
+      "traces": "experiments/evidence_traces.jsonl",
+      "annotations_a": "data/annotations/member_a.csv",
+      "annotations_b": "data/annotations/member_b.csv",
+      "adjudications": "data/annotations/adjudications.csv"
+    }
+  },
+  "environment": {
+    "python": "3.13.0",
+    "libraries": {
+      "PyMuPDF": "1.28.2",
+      "PyYAML": "6.0.2",
+      "requests": "2.32.3"
+    }
+  },
+  "dataset_sha256": "7638dbb7ef662504143c190f2a25f34b40b49f38985f84c07afce54aa52c9ce8",
+  "implementation_sha256": "c8af2c45253e685ea7098bd25c06cefbb3e8c9a7ab0a77c001504da380ab0333",
+  "systems": [
+    "veribrsr"
+  ],
+  "split": "development",
+  "n_claims": 5,
+  "unannotated_smoke_run": true,
+  "runtime_note": "Measured wall time, including cache hits and pacing. See each trace for cache status."
+}

@@ -1,0 +1,36 @@
+{
+  "run": {
+    "cache_hit": false,
+    "run_id": "d1cd825146546ef3c1d42402e9c2443ada734b3bf9486e01e261704007c05d26",
+    "runtime_ms": 3895.2719001099467,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "rejected": [
+    {
+      "item_index": 5,
+      "error": "Source page was not selected",
+      "item": {
+        "claim_id": "c6",
+        "company": "Tata Consultancy Services Limited",
+        "reporting_year": "2023-24",
+        "page_number": 3,
+        "source_sentence": "Total employees (D + E) 6,31,858 4,06,616 64.4 2,25,242 35.6",
+        "metric": "total_employees",
+        "operation": "value_equality",
+        "asserted_value": 631858,
+        "unit": "employees",
+        "metric_unit": null,
+        "current_period": {
+          "start": "2023-04-01",
+          "end": "2024-03-31",
+          "type": "instant"
+        },
+        "previous_period": null,
+        "boundary": "consolidated",
+        "dimensions": {},
+        "is_target": false,
+        "extraction_confidence": 1.0
+      }
+    }
+  ]
+}

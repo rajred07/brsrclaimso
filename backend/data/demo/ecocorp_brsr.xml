@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:in-brsr="https://www.sebi.gov.in/xbrl/2022-03-31/in-brsr">
+  <!-- Contexts -->
+  <xbrli:context id="FY24">
+    <xbrli:entity><xbrli:identifier scheme="http://www.nseindia.com">ECOCORP</xbrli:identifier></xbrli:entity>
+    <xbrli:period><xbrli:startDate>2023-04-01</xbrli:startDate><xbrli:endDate>2024-03-31</xbrli:endDate></xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="FY23">
+    <xbrli:entity><xbrli:identifier scheme="http://www.nseindia.com">ECOCORP</xbrli:identifier></xbrli:entity>
+    <xbrli:period><xbrli:startDate>2022-04-01</xbrli:startDate><xbrli:endDate>2023-03-31</xbrli:endDate></xbrli:period>
+  </xbrli:context>
+
+  <!-- Units -->
+  <xbrli:unit id="GJ"><xbrli:measure>in-brsr:Gigajoule</xbrli:measure></xbrli:unit>
+  <xbrli:unit id="tCO2e"><xbrli:measure>in-brsr:MetricTonsCO2e</xbrli:measure></xbrli:unit>
+  <xbrli:unit id="kL"><xbrli:measure>in-brsr:Kiloliters</xbrli:measure></xbrli:unit>
+
+  <!-- The Facts -->
+  <!-- 1. Energy (Support: 1000 to 900 = 10% drop) -->
+  <in-brsr:EnergyConsumptionTotal contextRef="FY24" unitRef="GJ" decimals="0">900</in-brsr:EnergyConsumptionTotal>
+  <in-brsr:EnergyConsumptionTotal contextRef="FY23" unitRef="GJ" decimals="0">1000</in-brsr:EnergyConsumptionTotal>
+
+  <!-- 2. Greenwashing Scope 1 (Inconsistent: 5000 to 5500 = 10% INCREASE) -->
+  <in-brsr:Scope1Emissions contextRef="FY24" unitRef="tCO2e" decimals="0">5500</in-brsr:Scope1Emissions>
+  <in-brsr:Scope1Emissions contextRef="FY23" unitRef="tCO2e" decimals="0">5000</in-brsr:Scope1Emissions>
+
+  <!-- 3. Scope 2 (Tolerance: 10123 to 9600 = 5.166% drop) -->
+  <in-brsr:Scope2Emissions contextRef="FY24" unitRef="tCO2e" decimals="0">9600</in-brsr:Scope2Emissions>
+  <in-brsr:Scope2Emissions contextRef="FY23" unitRef="tCO2e" decimals="0">10123</in-brsr:Scope2Emissions>
+
+  <!-- 4. Water (Unit Conversion: 100 kL to 80 kL = 20 kL drop = 20,000 Liters drop) -->
+  <in-brsr:WaterConsumptionTotal contextRef="FY24" unitRef="kL" decimals="0">80</in-brsr:WaterConsumptionTotal>
+  <in-brsr:WaterConsumptionTotal contextRef="FY23" unitRef="kL" decimals="0">100</in-brsr:WaterConsumptionTotal>
+  
+  <!-- Notice: Employee Turnover is entirely missing from this XML to test INCOMPARABLE -->
+</xbrli:xbrl>

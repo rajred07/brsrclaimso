@@ -1,0 +1,31 @@
+{
+  "required_filing_pairs": 10,
+  "materialized_pairs": 10,
+  "ready_filing_ids": [
+    "infosys-2023-24",
+    "reliance-2023-24",
+    "tata-steel-2023-24",
+    "mahindra-2024-25",
+    "larsen-toubro-2023-24",
+    "hul-2023-24",
+    "jsw-steel-2023-24",
+    "tcs-2023-24",
+    "wipro-2023-24",
+    "itc-2023-24"
+  ],
+  "natural_reference_records": 54,
+  "perturbation_reference_records": 40,
+  "examples_by_split": {
+    "development": 66,
+    "test": 28
+  },
+  "annotation_mode": "automated_source_reference",
+  "manual_gold_labels_created": 0,
+  "automatic_reference_experiment_complete": true,
+  "independent_ground_truth_evaluation_complete": false,
+  "correctness_tests_passed": 21,
+  "model": "gemini-3.5-flash-lite",
+  "development_prediction_rows": 264,
+  "test_prediction_rows": 112,
+  "protocol_notes": "experiments/protocol_notes.json"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "metric": "Water holding capacity",
+    "operation": "absolute_change",
+    "stated_result": "5 billion",
+    "unit": "liters",
+    "period_current": "FY24",
+    "period_compare": "before rejuvenation",
+    "original_quote": "We rejuvenated five lakes in Bengaluru, enhancing the water holding capacity by about 5 billion liters compared to the baseline before rejuvenation."
+  },
+  {
+    "metric": "Total municipal water withdrawal",
+    
+    "operation": "percentage_change",
+    "stated_result": 16,
+    "unit": "%",
+    "period_current": "FY24",
+    "period_compare": "FY23",
+    "original_quote": "Consequently, our total municipal water withdrawal decreased from 2.5 million kiloliters in FY23 to 2.1 million kiloliters in FY24, representing a 16% reduction year-over-year."
+  },
+  {
+    "metric": "Electricity saved",
+    "operation": "absolute_change",
+    "stated_result": "1.1 lakh",
+    "unit": "kWh",
+    "period_current": "FY24",
+    "period_compare": "before retrofit",
+    "original_quote": "Through aggressive retrofitting across our tier-2 city campuses, we replaced direct FCU units with chilled water units of air conditioning, which saved 1.1 lakh kWh of electricity."
+  },
+  {
+    "metric": "Cooling system efficiency",
+    "operation": "percentage_change",
+    "stated_result": 50,
+    "unit": "%",
+    "period_current": "new radiant cooling system",
+    "period_compare": "regular air-conditioning",
+    "original_quote": "Furthermore, the implementation of our new radiant cooling system\u2014which is about 50% more efficient than regular air-conditioning\u2014contributed to massive campus-wide savings."
+  },
+  {
+    "metric": "Scope 1 and 2 emissions",
+    "operation": "percentage_change",
+    "stated_result": 60.07,
+    "unit": "%",
+    "period_current": "FY24",
+    "period_compare": "BAU (Business As Usual) scenario",
+    "original_quote": "Due to these combined efforts, we successfully reduced our scope 1 and 2 emissions by 60.07% over the BAU (Business As Usual) scenario."
+  },
+  {
+    "metric": "Absolute emissions",
+    "operation": "absolute_change",
+    "stated_result": 80.84,
+    "unit": "tCO2e",
+    "period_current": "after retrofit",
+    "period_compare": "before the retrofit",
+    "original_quote": "The retrofit project alone reduced our absolute emissions by 80.84 tCO2e compared to before the retrofit."
+  },
+  {
+    "metric": "E-waste recycled rate",
+    "operation": "value_equality",
+    "stated_result": 99.5,
+    "unit": "%",
+    "period_current": "FY24",
+    "period_compare": "previous reporting period",
+    "original_quote": "We successfully recycled 99.5% of all e-waste generated, up from 94% in the previous reporting period."
+  }
+]

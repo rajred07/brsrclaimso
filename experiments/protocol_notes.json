@@ -1,0 +1,42 @@
+{
+  "experiment_type": "company-separated automated-reference pilot",
+  "confirmatory_untouched_test": false,
+  "independent_human_gold": false,
+  "initial_freeze": {
+    "implementation_sha256": "eb883767ee905bf2c4bba96bf9e69732924ac70ca3f3173a0cf08e8a859b5a51",
+    "frozen_at": "2026-10-01T03:27:05.010437+00:00"
+  },
+  "revised_freeze": {
+    "implementation_sha256": "ce4ea2c91a269a70d318850e0ac4835a528263f90c4bcdd56effa50c6b72d62e",
+    "frozen_at": "2026-10-01T03:36:03.978409+00:00"
+  },
+  "test_claims_exposed_before_protocol_repair": [
+    "tcs-2023-24-p0025-001",
+    "tcs-2023-24-p0025-002",
+    "tcs-2023-24-p0027-003",
+    "tcs-2023-24-p0027-004",
+    "tcs-2023-24-p0029-005",
+    "wipro-2023-24-p0026-001"
+  ],
+  "protocol_repair": "One bounded baseline format-repair request with unchanged claim/evidence pools and strict validation. No local mapping of invalid labels.",
+  "rejected_response_archive": "data/llm_runs/8f8421f6527e660976f2d82cdb53b7e1efe2abda7e477534526d84e583e4c112.rejected-1.json",
+  "development_rerun": "experiments/development_predictions.csv",
+  "mutation_types_in_dataset": [
+    "magnitude_alteration",
+    "unit_alteration"
+  ],
+  "natural_operations_in_dataset": [
+    "value_equality"
+  ],
+  "limitations": [
+    "Automatic references share extracted interpretations, parsing, units and arithmetic with the task.",
+    "All 54 natural examples are table value claims; percentage/direction/base-year performance is not established.",
+    "Six test examples were observed before a response-format infrastructure repair."
+  ],
+  "final_evaluation_complete": true,
+  "final_run_date": "2026-10-01T03:45:58.661893+00:00",
+  "final_test_prediction_rows": 112,
+  "repaired_prediction_rows": 6,
+  "final_metrics": "experiments/metrics.json",
+  "final_implementation_sha256": "ce4ea2c91a269a70d318850e0ac4835a528263f90c4bcdd56effa50c6b72d62e"
+}

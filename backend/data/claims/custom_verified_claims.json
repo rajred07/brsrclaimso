@@ -1,0 +1,72 @@
+[
+  {
+    "metric": "energy_consumption",
+    "original_quote": "our total energy consumption was 650,476 GJ",
+    "stated_result": "650476.0 GJ",
+    "verdict": "SUPPORTED",
+    "ground_truth_current": "650476.0 GJ",
+    "ground_truth_prior": "N/A",
+    "math_trace": "DB value = 650476.0 vs Stated = 650476.0 (diff: 0.0)",
+    "reason": "Direct value equality verified against DuckDB (650476.0 GJ)."
+  },
+  {
+    "metric": "energy_consumption",
+    "original_quote": "representing a 3.15% reduction compared to 671,660 GJ in Fiscal 2021",
+    "stated_result": "3.15%",
+    "verdict": "SUPPORTED",
+    "ground_truth_current": "650476.0 GJ",
+    "ground_truth_prior": "671660.0 GJ",
+    "math_trace": "((650476.0 - 671660.0) / 671660.0) * 100 = -3.15% (diff: 0.00%)",
+    "reason": "Calculated -3.15% matches stated 3.15% within 0.5% tolerance."
+  },
+  {
+    "metric": "energy_consumption",
+    "original_quote": "671,660 GJ in Fiscal 2021",
+    "stated_result": "671660.0 GJ",
+    "verdict": "SUPPORTED",
+    "ground_truth_current": "671660.0 GJ",
+    "ground_truth_prior": "N/A",
+    "math_trace": "DB value = 671660.0 vs Stated = 671660.0 (diff: 0.0)",
+    "reason": "Direct value equality verified against DuckDB (671660.0 GJ)."
+  },
+  {
+    "metric": "renewable_energy_consumption",
+    "original_quote": "Our renewable energy consumption accounted for 266,119 GJ",
+    "stated_result": "266119.0 GJ",
+    "verdict": "SUPPORTED",
+    "ground_truth_current": "266119.0 GJ",
+    "ground_truth_prior": "N/A",
+    "math_trace": "DB value = 266119.0 vs Stated = 266119.0 (diff: 0.0)",
+    "reason": "Direct value equality verified against DuckDB (266119.0 GJ)."
+  },
+  {
+    "metric": "scope1_emissions",
+    "original_quote": "Our Scope 1 direct greenhouse gas emissions were 8,965 tCO2e",
+    "stated_result": "8965.0 tCO2e",
+    "verdict": "SUPPORTED",
+    "ground_truth_current": "8965.0 tCO2e",
+    "ground_truth_prior": "N/A",
+    "math_trace": "DB value = 8965.0 vs Stated = 8965.0 (diff: 0.0)",
+    "reason": "Direct value equality verified against DuckDB (8965.0 tCO2e)."
+  },
+  {
+    "metric": "scope2_emissions",
+    "original_quote": "Scope 2 emissions stood at 51,717 tCO2e",
+    "stated_result": "51717.0 tCO2e",
+    "verdict": "SUPPORTED",
+    "ground_truth_current": "51717.0 tCO2e",
+    "ground_truth_prior": "N/A",
+    "math_trace": "DB value = 51717.0 vs Stated = 51717.0 (diff: 0.0)",
+    "reason": "Direct value equality verified against DuckDB (51717.0 tCO2e)."
+  },
+  {
+    "metric": "water_withdrawal",
+    "original_quote": "a 25% reduction in municipal water withdrawal",
+    "stated_result": "25.0 %",
+    "verdict": "INSUFFICIENT_EVIDENCE",
+    "ground_truth_current": "N/A",
+    "ground_truth_prior": "N/A",
+    "math_trace": "[PERCENTAGE_CHANGE] No matching concept in DuckDB for metric 'water_withdrawal' in FY22",
+    "reason": "Ground-truth metric 'water_withdrawal' for period FY22 is not mapped in DuckDB normalized_facts."
+  }
+]

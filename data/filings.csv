@@ -1,0 +1,11 @@
+filing_id,company,reporting_year,pdf_path_or_url,xbrl_path_or_url,split
+infosys-2023-24,Infosys Limited,2023-24,backend/data/filings/infosys-202324-2099/report_2infy202324.pdf,backend/data/filings/infosys-202324-2099/brsr_BRSR_1154471_06062024072107_WEB__1_.xml,development
+reliance-2023-24,Reliance Industries Limited,2023-24,data/filings/reliance-2023-24/report.pdf,data/filings/reliance-2023-24/filing.xml,development
+tata-steel-2023-24,Tata Steel Limited,2023-24,data/filings/tata-steel-2023-24/report.pdf,data/filings/tata-steel-2023-24/filing.xml,development
+mahindra-2024-25,Mahindra & Mahindra Limited,2024-25,data/filings/mahindra-2024-25/report.pdf,data/filings/mahindra-2024-25/filing.xml,development
+larsen-toubro-2023-24,Larsen & Toubro Limited,2023-24,data/filings/larsen-toubro-2023-24/report.pdf,data/filings/larsen-toubro-2023-24/filing.xml,development
+hul-2023-24,Hindustan Unilever Limited,2023-24,data/filings/hul-2023-24/report.pdf,data/filings/hul-2023-24/filing.xml,development
+jsw-steel-2023-24,JSW Steel Limited,2023-24,data/filings/jsw-steel-2023-24/report.pdf,data/filings/jsw-steel-2023-24/filing.xml,development
+tcs-2023-24,Tata Consultancy Services Limited,2023-24,data/filings/tcs-2023-24/report.pdf,data/filings/tcs-2023-24/filing.xml,test
+wipro-2023-24,Wipro Limited,2023-24,data/filings/wipro-2023-24/report.pdf,data/filings/wipro-2023-24/filing.xml,test
+itc-2023-24,ITC Limited,2023-24,data/filings/itc-2023-24/report.pdf,data/filings/itc-2023-24/filing.xml,test

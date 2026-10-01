@@ -1,0 +1,11 @@
+# Preserve the exact bytes used by experiment provenance and freeze hashes.
+src/*.py -text
+prompts/*.txt -text
+config.yaml -text
+requirements.txt -text
+data/** -text
+experiments/*.py -text
+experiments/*.csv -text
+experiments/*.json -text
+experiments/*.jsonl -text
+experiments/*.md -text

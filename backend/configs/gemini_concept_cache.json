@@ -1,0 +1,647 @@
+{
+  "NumberOfWellBeingOfEmployeesOrWorkers": {
+    "canonical_name": "Number of Employees Benefitting from Well-being Initiatives",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "SafeAndResponsibleUsageAsAPercentageToTotalTurnover": {
+    "canonical_name": "Revenue from Products/Services with Safe & Responsible Usage (% of Total Turnover)",
+    "category": "Social",
+    "standard_unit": "%"
+  },
+  "MedianOfRemunerationOrSalaryOrWagesOfEmployeesOtherThanBodAndKMP": {
+    "canonical_name": "Median Remuneration of Employees (Excluding BoD & KMP)",
+    "category": "Workforce",
+    "standard_unit": "INR"
+  },
+  "WasteRecoveredThroughRecycled": {
+    "canonical_name": "Waste Recovered Through Recycling",
+    "category": "Waste",
+    "standard_unit": "Tonne"
+  },
+  "PercentageOfComplaintsInRespectOfNumberOfEmployeesOrWorker": {
+    "canonical_name": "Employee Complaints Rate (% of Workforce)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "EnvironmentalAndSocialParametersRelevantToTheProductAsAPercentageToTotalTurnover": {
+    "canonical_name": "Revenue from Products/Services Meeting Environmental & Social Criteria (% of Total Turnover)",
+    "category": "Social",
+    "standard_unit": "%"
+  },
+  "TotalScope3EmissionsPerRupeeOfTurnover": {
+    "canonical_name": "Scope 3 Emissions Intensity (per Rupee of Turnover)",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  },
+  "WaterDischargeToGroundwaterWithTreatmentPerArea": {
+    "canonical_name": "Treated Water Discharge to Groundwater (per Area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "MedianOfRemunerationOrSalaryOrWagesOfWorkers": {
+    "canonical_name": "Median Remuneration of Workers",
+    "category": "Workforce",
+    "standard_unit": "INR"
+  },
+  "PercentageOfTotalTurnoverForProductOrServiceSold": {
+    "canonical_name": "Revenue from Product/Service Sales (% of Total Turnover)",
+    "category": "Financial",
+    "standard_unit": "%"
+  },
+  "PercentageOfEmployeesOrWorkerForPerformanceAndCareerDevelopment": {
+    "canonical_name": "Employees Receiving Performance & Career Development Reviews (%)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterDischargeBySentToThirdPartiesWithoutTreatment": {
+    "canonical_name": "Untreated Water Discharge to Third Parties",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "HighConsequenceWorkRelatedInjuryOrIllHealthExcludingFatalities": {
+    "canonical_name": "High-Consequence Work-Related Injuries/Ill-Health (Excluding Fatalities)",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "NumberOfWorkersForRemunerationOrSalaryOrWages": {
+    "canonical_name": "Number of Workers Receiving Remuneration",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "TotalNumberOfEmployeesOrWorkersForPerformanceAndCareerDevelopment": {
+    "canonical_name": "Total Employees Receiving Performance & Career Development Reviews",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "NumberOfEmployeesOrWorkersRelatedToMinimumWages": {
+    "canonical_name": "Number of Employees Paid at or Above Minimum Wage",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "NumberOfPersonsBenefittedFromCSRProjects": {
+    "canonical_name": "Number of Beneficiaries from CSR Projects",
+    "category": "Social",
+    "standard_unit": "count"
+  },
+  "PercentageOfCostIncurredOnWellBeingMeasuresWithRespectToTotalRevenueOfTheCompany": {
+    "canonical_name": "Cost of Employee Well-being Measures (% of Total Revenue)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterDischargeBySentToThirdPartiesWithTreatment": {
+    "canonical_name": "Treated Water Discharge to Third Parties",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WaterWithdrawalByThirdPartyWaterPerArea": {
+    "canonical_name": "Water Withdrawal from Third-Party Sources (per Area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "WaterDischargeToOthersWithoutTreatmentPerArea": {
+    "canonical_name": "Untreated Water Discharge to Other Destinations (per Area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "TotalScope1AndScope2EmissionsIntensityPerRupeeOfTurnoverAdjustedForPurchasingPowerParity": {
+    "canonical_name": "Scope 1 & 2 Emissions Intensity (per Rupee of Turnover, PPP Adjusted)",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  },
+  "PercentageOfTrainedEmployeesOrWorkers": {
+    "canonical_name": "Employees Receiving Training (%)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "TotalScope3EmissionIntensityTheRelevantMetricMayBeSelectedByTheEntity": {
+    "canonical_name": "Total Scope 3 Emissions Intensity",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  },
+  "TotalWaterDischargedInKilolitresPerArea": {
+    "canonical_name": "Total Water Discharged (per Area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "WaterDischargeToSurfaceWaterWithTreatmentPerArea": {
+    "canonical_name": "Treated Water Discharge to Surface Water (per Area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "PercentageOfTotalTurnoverForBusinessActivities": {
+    "canonical_name": "Revenue from Business Activities (% of Total Turnover)",
+    "category": "Financial",
+    "standard_unit": "%"
+  },
+  "TotalRevenueOfTheCompany": {
+    "canonical_name": "Total Company Revenue",
+    "category": "Financial",
+    "standard_unit": "INR"
+  },
+  "WaterDischargeToGroundwater": {
+    "canonical_name": "Water Discharge to Groundwater",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "PercentageOfEmployeesOrWorkersIncludingDifferentlyAbled": {
+    "canonical_name": "Workforce Including Differently-Abled Persons (%)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterDischargeToGroundwaterWithOutTreatment": {
+    "canonical_name": "Untreated Water Discharge to Groundwater",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "NumberOfWorkersAgainstWhomDisciplinaryActionWasTaken": {
+    "canonical_name": "Number of Workers Subject to Disciplinary Action",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "AverageNumberOfFemaleEmployeesOrWorkersAtTheBeginningOfTheYearAndAsAtEndOfTheYear": {
+    "canonical_name": "Average Number of Female Employees/Workers (Annual)",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "RadioactiveWaste": {
+    "canonical_name": "Radioactive Waste Generated",
+    "category": "Waste",
+    "standard_unit": "Tonne"
+  },
+  "WaterDischargeToOthersPerArea": {
+    "canonical_name": "Total Water Discharge to Other Destinations (per Area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "TotalVolumeOfWaterConsumptionPerArea": {
+    "canonical_name": "Total Water Consumption (per Area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "WaterDischargeToGroundwaterWithTreatment": {
+    "canonical_name": "Treated Water Discharge to Groundwater",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "NumberOfEmployeesCoveredAsPercentageOfTotalWorker": {
+    "canonical_name": "Percentage of Workforce Covered by Policies/Benefits",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterDischargeToOthersWithoutTreatment": {
+    "canonical_name": "Untreated Water Discharge to Other Destinations",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WaterIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
+    "canonical_name": "Water Intensity (per Rupee of Turnover, PPP Adjusted)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "WaterDischargeBySentToThirdPartiesPerArea": {
+    "canonical_name": "Water Discharge to Third Parties per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "WaterDischargeToGroundwaterWithOutTreatmentPerArea": {
+    "canonical_name": "Untreated Water Discharge to Groundwater per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "WaterDischargeToSurfaceWaterWithTreatment": {
+    "canonical_name": "Treated Water Discharge to Surface Water",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "NumberOfTrainedEmployeesOrWorkers": {
+    "canonical_name": "Number of Employees Trained",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "WaterDischargeToOthersWithTreatmentPerArea": {
+    "canonical_name": "Treated Water Discharge to Other Sources per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "TotalVolumeOfWaterWithdrawalPerArea": {
+    "canonical_name": "Total Water Withdrawal per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "WaterDischargeToGroundwaterPerArea": {
+    "canonical_name": "Total Water Discharge to Groundwater per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "WaterDischargeToSurfaceWater": {
+    "canonical_name": "Total Water Discharge to Surface Water",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WasteIntensityPerRupeeOfTurnover": {
+    "canonical_name": "Waste Intensity per Rupee of Turnover",
+    "category": "Waste",
+    "standard_unit": "Tonne/INR"
+  },
+  "WasteIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
+    "canonical_name": "Waste Intensity per Rupee of Turnover (PPP Adjusted)",
+    "category": "Waste",
+    "standard_unit": "Tonne/INR"
+  },
+  "WaterDischargeToSeawaterPerArea": {
+    "canonical_name": "Total Water Discharge to Seawater per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "TotalNumberOfEmployeesOrWorkersForMembership": {
+    "canonical_name": "Total Number of Employees",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "WaterDischargeToSurfaceWaterWithOutTreatment": {
+    "canonical_name": "Untreated Water Discharge to Surface Water",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WaterDischargeToSeawaterWithTreatmentPerArea": {
+    "canonical_name": "Treated Water Discharge to Seawater per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "RecyclingAndOrSafeDisposalAsAPercentageToTotalTurnover": {
+    "canonical_name": "Waste Recycling and Safe Disposal Contribution to Turnover",
+    "category": "Waste",
+    "standard_unit": "%"
+  },
+  "WaterWithdrawalByOthersPerArea": {
+    "canonical_name": "Water Withdrawal from Other Sources per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "WaterDischargeToSeawaterWithOutTreatment": {
+    "canonical_name": "Untreated Water Discharge to Seawater",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "EnergyIntensityPerRupeeOfTurnoverAdjustingForPurchasingPowerParity": {
+    "canonical_name": "Energy Intensity per Rupee of Turnover (PPP Adjusted)",
+    "category": "Energy",
+    "standard_unit": "GJ/INR"
+  },
+  "WaterDischargeToOthers": {
+    "canonical_name": "Total Water Discharge to Other Sources",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WaterDischargeToOthersWithTreatment": {
+    "canonical_name": "Treated Water Discharge to Other Sources",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "PercentageOfContributionOfExportsInTheTotalTurnoverOfTheEntity": {
+    "canonical_name": "Export Contribution to Total Turnover",
+    "category": "Financial",
+    "standard_unit": "%"
+  },
+  "Turnover": {
+    "canonical_name": "Total Turnover",
+    "category": "Financial",
+    "standard_unit": "INR"
+  },
+  "AmountSpentForCSRProjectsUndertaken": {
+    "canonical_name": "Amount Spent on CSR Projects",
+    "category": "Social",
+    "standard_unit": "INR"
+  },
+  "WaterDischargeToSurfaceWaterPerArea": {
+    "canonical_name": "Total Water Discharge to Surface Water per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "NumberOfEmployeesOrWorkersArePartOfAssociationsOrUnion": {
+    "canonical_name": "Number of Employees in Unions or Associations",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "ReturnToWorkRatePermanentEmployeesThatTookParentalLeave": {
+    "canonical_name": "Return to Work Rate (Permanent Employees - Parental Leave)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "ReturnToWorkRatePermanentWorkersThatTookParentalLeave": {
+    "canonical_name": "Return to Work Rate (Permanent Workers - Parental Leave)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "NumberOfEmployeesOrWorkerForPerformanceAndCareerDevelopment": {
+    "canonical_name": "Number of Employees Covered by Performance & Career Development Review",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "NumberOfDifferentlyAbledEmployeesOrWorkers": {
+    "canonical_name": "Number of Differently-Abled Employees",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "EnergyConsumptionThroughOtherSourcesFromNonRenewableSources": {
+    "canonical_name": "Non-Renewable Energy Consumption from Other Sources",
+    "category": "Energy",
+    "standard_unit": "GJ"
+  },
+  "EnergyConsumptionThroughOtherSourcesFromRenewableSources": {
+    "canonical_name": "Renewable Energy Consumption from Other Sources",
+    "category": "Energy",
+    "standard_unit": "GJ"
+  },
+  "WasteDisposedByOtherDisposalOperations": {
+    "canonical_name": "Waste Disposed by Other Operations",
+    "category": "Waste",
+    "standard_unit": "Tonne"
+  },
+  "WaterDischargeBySentToThirdPartiesWithTreatmentPerArea": {
+    "canonical_name": "Treated Water Discharge to Third Parties per Area",
+    "category": "Water",
+    "standard_unit": "kL/sqm"
+  },
+  "NumberOfEmployeesOrWorkersCoveredForProvidedTrainingOnHumanRightsIssues": {
+    "canonical_name": "Number of Employees Trained on Human Rights",
+    "category": "Social",
+    "standard_unit": "count"
+  },
+  "PercentageOfEmployeesOrWorkersCoveredForProvidedTrainingOnHumanRightsIssues": {
+    "canonical_name": "Percentage of Employees Trained on Human Rights",
+    "category": "Social",
+    "standard_unit": "%"
+  },
+  "WaterDischargeToSeawater": {
+    "canonical_name": "Total Water Discharge to Seawater",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "LostTimeInjuryFrequencyRatePerOneMillionPersonHoursWorked": {
+    "canonical_name": "Lost Time Injury Frequency Rate (LTIFR)",
+    "category": "Workforce",
+    "standard_unit": "ratio"
+  },
+  "WaterDischargeToSeawaterWithTreatment": {
+    "canonical_name": "Treated Water Discharge to Seawater",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "NumberOfEmployeesAgainstWhomDisciplinaryActionWasTaken": {
+    "canonical_name": "Number of Employees with Disciplinary Action",
+    "category": "Social",
+    "standard_unit": "count"
+  },
+  "NumberOfEmployeesCoveredAsPercentageOfTotalEmployees": {
+    "canonical_name": "Percentage of Employees Covered (Generic)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterDischargeToSurfaceWaterWithOutTreatmentPerArea": {
+    "canonical_name": "Untreated Water Discharge to Surface Water (per area)",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WaterDischargeToSeawaterWithOutTreatmentPerArea": {
+    "canonical_name": "Untreated Water Discharge to Seawater (per area)",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WasteRecoveredThroughOtherRecoveryOperations": {
+    "canonical_name": "Waste Recovered by Other Operations",
+    "category": "Waste",
+    "standard_unit": "Tonne"
+  },
+  "WasteDisposedByLandfilling": {
+    "canonical_name": "Waste Disposed to Landfill",
+    "category": "Waste",
+    "standard_unit": "Tonne"
+  },
+  "PercentageOfHealthAndSafetyPracticesOfYourPlantsAndOfficesThatWereAssessedP3": {
+    "canonical_name": "Percentage of Own Operations' Health & Safety Practices Assessed",
+    "category": "Social",
+    "standard_unit": "%"
+  },
+  "TotalNumberOfEmployeesOrWorkersForTrainingOnHumanRightsIssues": {
+    "canonical_name": "Total Employees Trained on Human Rights",
+    "category": "Social",
+    "standard_unit": "count"
+  },
+  "NumberOfWorkersOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment": {
+    "canonical_name": "Workers/Family Members Rehabilitated and Placed in Employment",
+    "category": "Social",
+    "standard_unit": "count"
+  },
+  "PercentageOfEmployeesOrWorkersRelatedToMinimumWages": {
+    "canonical_name": "Percentage of Employees Earning Minimum Wage or More",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterWithdrawalBySeawaterOrDesalinatedWaterPerArea": {
+    "canonical_name": "Seawater or Desalinated Water Withdrawal (per area)",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WaterDischargeBySentToThirdParties": {
+    "canonical_name": "Water Discharged to Third Parties",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "PercentageOfDifferentlyAbledEmployeesOrWorkers": {
+    "canonical_name": "Percentage of Employees with Disabilities",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterWithdrawalByOthers": {
+    "canonical_name": "Other Water Withdrawal Sources",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "NumberOfFemaleEmployeesOrWorkers": {
+    "canonical_name": "Number of Female Employees",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "WaterWithdrawalBySeawaterOrDesalinatedWater": {
+    "canonical_name": "Seawater or Desalinated Water Withdrawal",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "PercentageOfWellBeingOfEmployeesOrWorkers": {
+    "canonical_name": "Percentage of Employees Covered by Well-being Programs",
+    "category": "Social",
+    "standard_unit": "%"
+  },
+  "WaterWithdrawalBySurfaceWaterPerArea": {
+    "canonical_name": "Surface Water Withdrawal (per area)",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "WaterIntensityPerRupeeOfTurnoverPerArea": {
+    "canonical_name": "Water Intensity per Rupee of Turnover (per area)",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "RetentionRatesPermanentWorkersThatTookParentalLeave": {
+    "canonical_name": "Retention Rate of Permanent Workers After Parental Leave",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "WaterDischargeBySentToThirdPartiesWithoutTreatmentPerArea": {
+    "canonical_name": "Untreated Water Discharged to Third Parties (per area)",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "TotalNumberOfAffectedWorkers": {
+    "canonical_name": "Total Number of Affected Workers",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "WasteIntensityInTermOfPhysicalOutput": {
+    "canonical_name": "Waste Intensity per Unit of Physical Output",
+    "category": "Waste",
+    "standard_unit": "ratio"
+  },
+  "WaterWithdrawalByGroundwaterPerArea": {
+    "canonical_name": "Groundwater Withdrawal (per area)",
+    "category": "Water",
+    "standard_unit": "kL"
+  },
+  "PercentageOfHealthAndSafetyPracticesOfValueChainPartnersP3": {
+    "canonical_name": "Percentage of Value Chain Partners' H&S Practices Assessed",
+    "category": "Social",
+    "standard_unit": "%"
+  },
+  "NumberOfEmployeesOrWhoseFamilyMembersRehabilitatedAndPlacedInSuitableEmployment": {
+    "canonical_name": "Employees/Family Members Rehabilitated and Placed in Employment",
+    "category": "Social",
+    "standard_unit": "count"
+  },
+  "WasteIntensityTheRelevantMetricMayBeSelectedByTheEntityPerArea": {
+    "canonical_name": "Waste Intensity (per area)",
+    "category": "Waste",
+    "standard_unit": "ratio"
+  },
+  "NumberOfEmployeesOtherThanBodAndKMPForRemunerationOrSalaryOrWages": {
+    "canonical_name": "Number of Non-BoD/KMP Employees for Remuneration Reporting",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "PercentageOfEmployeesOrWorkersArePartOfAssociationsOrUnionOfTotalNumberOfEmployee": {
+    "canonical_name": "Percentage of Employees in Unions or Associations",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "RetentionRatesPermanentEmployeesThatTookParentalLeave": {
+    "canonical_name": "Retention Rate of Permanent Employees After Parental Leave",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "TotalNumberOfAffectedEmployees": {
+    "canonical_name": "Total Number of Affected Employees",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "WasteRecoveredThroughReUsed": {
+    "canonical_name": "Waste Recovered Through Reuse",
+    "category": "Waste",
+    "standard_unit": "Tonne"
+  },
+  "WasteDisposedByIncineration": {
+    "canonical_name": "Waste Disposed by Incineration",
+    "category": "Waste",
+    "standard_unit": "Tonne"
+  },
+  "WaterIntensityTheRelevantMetricMayBeSelectedByTheEntity": {
+    "canonical_name": "Water Intensity",
+    "category": "Water",
+    "standard_unit": "ratio"
+  },
+  "PercentageOfEmployeesOrWorkerforPerformanceAndCareerDevelopment": {
+    "canonical_name": "Percentage of Employees/Workers Receiving Performance & Career Development Reviews",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "UnitOfTotalScope1AndScope2EmissionIntensity": {
+    "canonical_name": "Unit of Combined Scope 1 & 2 Emission Intensity",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  },
+  "EnergyIntensityTheRelevantMetricMayBeSelectedByTheEntity": {
+    "canonical_name": "Energy Intensity",
+    "category": "Energy",
+    "standard_unit": "ratio"
+  },
+  "TotalScope3EmissionIntensity": {
+    "canonical_name": "Total Scope 3 Emission Intensity",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  },
+  "UnitOfTotalScope3EmissionIntensity": {
+    "canonical_name": "Unit of Total Scope 3 Emission Intensity",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  },
+  "NumberOfEmployeesCoveredAsPerecentageOfTotalWorker": {
+    "canonical_name": "Percentage of Employees Covered (relative to Total Workers)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "TotalNumberOfEmployeesOrWorkersforPerformanceandcareerDevelopment": {
+    "canonical_name": "Total Employees/Workers Receiving Performance & Career Development Reviews",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "UnitOfTotalScope1AndScope2EmissionsPerRupeeOfTurnover": {
+    "canonical_name": "Unit of Combined Scope 1 & 2 Emissions Per Rupee of Turnover",
+    "category": "Emissions",
+    "standard_unit": "tCO2e/INR"
+  },
+  "NumberOfEmployeesOrWorkerforPerformanceandcareerDevelopment": {
+    "canonical_name": "Employees/Workers Receiving Performance & Career Development Reviews",
+    "category": "Workforce",
+    "standard_unit": "count"
+  },
+  "NumberOfEmployeesCoveredAsPerecentageOfTotalEmployees": {
+    "canonical_name": "Percentage of Employees Covered (relative to Total Employees)",
+    "category": "Workforce",
+    "standard_unit": "%"
+  },
+  "EnergyConsumptionThroughOtherSources": {
+    "canonical_name": "Energy Consumption from Other Sources",
+    "category": "Energy",
+    "standard_unit": "GJ"
+  },
+  "TotalScope1AndScope2EmissionsPerRupeeOfTurnover": {
+    "canonical_name": "Combined Scope 1 & 2 Emissions Per Rupee of Turnover",
+    "category": "Emissions",
+    "standard_unit": "tCO2e/INR"
+  },
+  "PercentageOfTotalTurnoverContributedForConductedLifecyclePerspective": {
+    "canonical_name": "Percentage of Turnover from Products/Services with Lifecycle Assessment (LCA)",
+    "category": "Financial",
+    "standard_unit": "%"
+  },
+  "TotalScope1AndScope2EmissionIntensity": {
+    "canonical_name": "Total Combined Scope 1 & 2 Emission Intensity",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  },
+  "OtherEmissions": {
+    "canonical_name": "Other Emissions",
+    "category": "Emissions",
+    "standard_unit": "tCO2e"
+  },
+  "WasteIntensityTheRelevantMetricMayBeSelectedByTheEntity": {
+    "canonical_name": "Waste Intensity",
+    "category": "Waste",
+    "standard_unit": "ratio"
+  },
+  "TotalScope1AndScope2EmissionsIntensityTheRelevantMetricMayBeSelectedByTheEntity": {
+    "canonical_name": "Scope 1 and 2 Emissions Intensity",
+    "category": "Emissions",
+    "standard_unit": "ratio"
+  }
+}
